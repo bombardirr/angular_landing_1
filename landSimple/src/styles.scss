@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+$menu-item-height: 30px;
+
+.header {
+    width: 40rem;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu__item {
+    padding: 0 5px;
+    text-decoration: none;
+    height: $menu-item-height;
+    line-height: $menu-item-height;
+    background-color: #f05837;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 6px #000;
+}
